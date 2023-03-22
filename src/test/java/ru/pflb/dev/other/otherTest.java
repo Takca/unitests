@@ -2,8 +2,6 @@ package ru.pflb.dev.other;
 
 import org.junit.Assert;
 import org.junit.Test;
-import ru.pflb.dev.math.Calc;
-import ru.pflb.dev.math.CalcSum;
 
 public class otherTest {
 

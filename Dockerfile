@@ -4,7 +4,7 @@ RUN yum -y install maven
 
 WORKDIR /opt/app  
 
-COPY ${project_path}${project_name} ${project_name}
+COPY ./${project_path}/${project_name} ${project_name}
 
 WORKDIR /opt/app/${project_name}
 
