@@ -6,27 +6,27 @@ import org.junit.Test;
 public class mathTest {
 
     @Test
-    public void trueSumTest() {
+    public void twoFiveSeven() {
         Calc calc = new CalcSum();
         Assert.assertEquals(7, calc.calc(2, 5));
     }
 
     @Test
-    public void falseSumTest() {
+    public void threeFiveEight() {
         Calc calc = new CalcSum();
-        Assert.assertEquals(6, calc.calc(2, 5));
+        Assert.assertEquals(8, calc.calc(3, 5));
     }
 
     @Test
-    public void trueDifferenceTest() {
+    public void twoFiveMinusThree() {
         Calc calc = new CalcDifference();
         Assert.assertEquals(-3, calc.calc(2, 5));
     }
 
     @Test
-    public void falseDifferenceTest() {
+    public void fiveTwoThree() {
         Calc calc = new CalcDifference();
-        Assert.assertEquals(3, calc.calc(2, 5));
+        Assert.assertEquals(3, calc.calc(5, 2));
     }
 
 

@@ -11,10 +11,4 @@ public class otherTest {
         Assert.assertEquals("Hello world!", getter.getString());
     }
 
-    @Test
-    public void falseTest() {
-        StringGetter getter = new StringGetter();
-        Assert.assertEquals("Hello world", getter.getString());
-    }
-
 }
