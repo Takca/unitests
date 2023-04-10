@@ -1,6 +1,6 @@
 FROM amazoncorretto:11
 
-RUN yum -y install maven
+RUN yum -y install maven 3.9.0
 
 WORKDIR /opt/app  
 
