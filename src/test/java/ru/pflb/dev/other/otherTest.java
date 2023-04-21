@@ -1,14 +1,15 @@
 package ru.pflb.dev.other;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class otherTest {
 
     @Test
     public void trueTest() {
         StringGetter getter = new StringGetter();
-        Assert.assertEquals("Hello world!", getter.getString());
+        assertEquals("Hello world!", getter.getString());
     }
 
 }
